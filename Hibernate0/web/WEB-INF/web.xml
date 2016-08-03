@@ -4,9 +4,25 @@
         <servlet-name>IncluirProduto</servlet-name>
         <servlet-class>IncluirProduto</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>Teste</servlet-name>
+        <servlet-class>Teste</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>TesteSelect</servlet-name>
+        <servlet-class>TesteSelect</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>IncluirProduto</servlet-name>
         <url-pattern>/IncluirProduto</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Teste</servlet-name>
+        <url-pattern>/Teste</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>TesteSelect</servlet-name>
+        <url-pattern>/TesteSelect</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
